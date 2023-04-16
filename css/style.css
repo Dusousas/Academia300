@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+/**************************MENU-MOBILE******************************/
+nav.menu-mobile{
+    display: none;
+}
+
+.menu-mobile i{
+    font-size: 30px;
+    cursor: pointer;
+    color:white;
+    float: right;
+    position: relative;
+    top: -80px;
+}
+
+nav.menu-mobile ul{
+    display: none;
+    margin-top: 10px;
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 85px;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav.menu-mobile ul li{
+    padding: 6px 0;
+    margin-left: 30px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav.menu-mobile a{
+    text-decoration: none;
+}
+
+nav.menu-mobile ul li:hover{
+    color: #f3db45;
+    border-bottom: 1px solid #f3db45;
+}
+
+/********************************************************/
+
+header{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    z-index: 9;
+    height: 90px;
+}
+
+div.logo{
+    display: inline-block;
+    padding: 8px 0;
+}
+
+.logo img{
+    width: 75px;
+    height: 100px;
+}
+
+section.bg1{
+    width: 100%;
+    background-image: url('../IMAGES/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+
+nav.menu-desktop{
+    z-index: 9;
+    float: right;
+}
+
+nav.menu-desktop ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav.menu-desktop ul li{
+    float: left;
+    margin-top: 50px ;
+    margin-left: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+nav.menu-desktop ul li:hover{
+    color: #f3db45;
+    border-bottom: 1px solid #f3db45;
+}
+
+
+div.texto1{
+    display: inline-block;
+    margin-top: 190px;
+    max-width: 500px;
+}
+
+div.texto1 h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+div.texto1 h3{
+    margin-top: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+div.texto1 h2{
+    margin-top: 5px;
+    color: #f3db45;
+    font-weight: 600;
+}
+
+div.texto2{
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+div.texto2 > p{
+    display: inline-block;
+    color: #f3db45;
+    font-weight: lighter;
+    font-size: 9px;
+    margin-top: 180px;
+}
+
+section.modalidades > .container{
+    max-width: 1400px;
+}
+
+section.modalidades{
+    text-align: center;
+    width: 100%;
+    background-color: #f3db45;
+
+}
+
+section.modalidades h1{
+   position: relative;
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    top: 30px;
+}
+
+section.modalidades span{
+    font-weight: bold;
+}
+
+div.atividades{
+    max-width: 250px;
+    display: inline-block;
+    width:  33.3%;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+.atividades img{
+    width: 50px;
+    height: 50px;
+}
+
+.atividades h2{
+    font-size: 18px;
+    margin-bottom: 8px; 
+}
+
+.atividades p{
+    font-size: 18px;
+    margin-bottom: 18px; 
+}
+
+section.loc > .container{
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+section.loc{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: black;
+}
+
+section.loc h1{
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.unidade1 iframe{
+    float: left;
+    display: inline-block;
+    width: 50%;
+    height: 350px;
+}
+
+.unidade2 iframe{
+    float: right;
+    border-left: 3px solid black;
+    display: inline-block;
+    width: 50%;
+    height: 350px;
+}
+
+section.form1 > .container{
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+
+section.form1{
+    width: 100%;
+    height: 350px;
+    background-color: #2957a4;
+}
+
+section.form1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.form1 h1{
+    margin-bottom: 30px;
+}
+
+input[type=email]{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+input[type=nome]{
+    width: 49%;
+    display: inline-block;
+    float: right;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+input[type=telefone]{
+    float: left;
+    width: 49%;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+textarea{
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    border: 0;
+}
+
+div.btn{
+    text-align: center;
+}
+
+.form1 input[type=submit]{
+    text-align:center;
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+section.redes-sociais{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+}
+
+section.redes-sociais h1{
+    color: white;
+    font-size: 20px;
+}
+
+div.group-itens{
+    display: inline-block;
+}
+
+div.group-itens i{
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+footer{
+    padding: 15px;
+    text-align: center;
+    background-color: #f3db45;
+    width: 100%;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+/**********GALERIA HTML**********/
+
+section.galeria{
+    width: 100%;
+    background-color: #f3db45;
+}
+
+section.galeria p{
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+section.galeria h1{
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+div.galeria-single{
+    margin-top: 5px;
+    display: flex;
+    width: 33.3%;
+}
+
+div.galeria-single img{
+    padding: 6px 6px;
+    width: 100%;
+}
+
+@media screen and (max-width:768px){
+
+    nav.menu-mobile{
+        display: block;
+    }
+
+    div.logo{
+        display: block;
+    }
+
+    div.logo img{
+        width: 80px;
+        height: 100px;
+        margin-top: 15px;
+    }
+
+    nav.menu-desktop{
+        display: none;
+    }
+    
+    div.texto1{
+        margin-top: 180px;
+        display: inline-block;
+        min-width: 100%;
+    }
+    
+    div.texto1 h1, h3, h2{
+        text-align: center;
+    }
+    
+    section.modalidades h1{
+        margin-bottom: 40px;
+    }
+    
+    div.atividades{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    section.loc{
+        width: 100%;
+    }
+    
+    div.unidade1 iframe{
+        width: 100%;
+    }
+    
+    div.unidade2 iframe{
+        width: 100%;
+    } 
+
+/**********GALERIA HTML**********/
+    div.galeria-single{
+        display: block;
+        width: 100%;
+    }
+    }
+
